@@ -23,8 +23,7 @@ function Line() {
                     <div key={id} className={`msg ${uid === auth.currentUser.uid ? "sent" : "received"}`}>
                         <img src={photoURL} alt="" />
                         <p>{text}</p>
-                        <p>{createdAt.nanoseconds}</p>
-                        {console.log(createdAt.nanoseconds)}
+                        {/* <p>{createdAt.nanoseconds}</p> */}
                     </div>
                 </div>
             ))}
